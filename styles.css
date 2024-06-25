@@ -1,0 +1,90 @@
+#containerCounter{
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+   justify-content: space-around;
+}
+
+.divtoBanner{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+#divCounter{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#player1Div{
+    display: flex;
+    width: 230px;
+    height: 40px;
+    margin: 0;
+    border: 2px solid tomato;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+#player2Div{
+    display: flex;
+    width: 230px;
+    height: 40px;
+    margin: 0;
+    border: 2px solid steelblue;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+#playerOneTitle{
+    font-size: 20px;
+}
+#playerTwoTitle{
+    font-size: 20px;
+}
+
+#divSelect{
+width: 500px;
+height: 25px;
+margin-top: 10px;
+padding: 10px;
+display: flex;
+align-content: center;
+justify-content: center;
+gap: 20px;
+}
+
+
+#divContainerButtons{
+width: 600px;
+height: 50px;
+display: flex;
+justify-content: space-around;
+}
+
+#playerOneButton{
+width: 100px;
+height: 40px;
+margin: 0;
+border: 2px solid tomato;
+border-radius: 8px;
+}
+
+#playerTwoButton{
+width: 100px;
+height: 40px;
+margin: 0;
+border: 2px solid steelblue;
+border-radius: 8px;
+}
+
+#resetButton{
+width: 100px;
+height: 40px;
+margin: 0;
+border: 2px solid greenyellow;
+border-radius: 8px;
+}
